@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="409ffdb7-9a9c-4cd9-a13d-fd157964990c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/messages_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/chatroom_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/chatroom_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/chatroom/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/chatroom/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/messages/_message.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1630439881343</updated>
       <workItem from="1630439882807" duration="4613000" />
-      <workItem from="1634727702403" duration="9299000" />
+      <workItem from="1634727702403" duration="10593000" />
     </task>
     <servers />
   </component>
