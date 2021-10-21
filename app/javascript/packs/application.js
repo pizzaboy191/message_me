@@ -12,10 +12,13 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
+import 'scroll_bottom'
 import '@doabit/semantic-ui-sass'
+
 $(document).on('turbolinks:load', function() {
     $('.ui.dropdown').dropdown();
     $('.message .close').on('click', function () {
         $(this).closest('.message').transition('fade');
     });
+    scroll_bottom();
 })
