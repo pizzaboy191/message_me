@@ -13,6 +13,7 @@ Turbolinks.start()
 ActiveStorage.start()
 
 import 'scroll_bottom'
+import 'submit_message'
 import '@doabit/semantic-ui-sass'
 
 $(document).on('turbolinks:load', function() {
@@ -21,4 +22,5 @@ $(document).on('turbolinks:load', function() {
         $(this).closest('.message').transition('fade');
     });
     scroll_bottom();
+    submit_message();
 })
